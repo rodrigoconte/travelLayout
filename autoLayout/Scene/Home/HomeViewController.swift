@@ -20,6 +20,7 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         setupTableView()
         setupView()
+        self.tabBarItem.title = "Home"
         self.travelTable.dataSource = self
         self.travelTable.delegate = self
     }

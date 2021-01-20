@@ -21,6 +21,7 @@ class LibraryViewController: UIViewController {
     // MARK: View Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.tabBarItem.title = "Library"
         collectionView.dataSource = self
         collectionView.delegate = self
         setupCollectionViewCell()
