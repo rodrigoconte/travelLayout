@@ -53,6 +53,9 @@ extension LibraryViewController: UICollectionViewDataSource {
 }
 
 // MARK: CollectionView Delegate
-extension LibraryViewController: UICollectionViewDelegate {
-    
+extension LibraryViewController: UICollectionViewDelegateFlowLayout {
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        let widthCell = collectionView.bounds.width/2
+        return CGSize(width: widthCell - 15, height: 160)
+    }
 }

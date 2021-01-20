@@ -23,19 +23,19 @@
                         </constraints>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rLQ-HT-j7b" userLabel="Title">
-                        <rect key="frame" x="0.0" y="83" width="135" height="17"/>
+                        <rect key="frame" x="0.0" y="86" width="135" height="17"/>
                         <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="12"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bzc-wQ-7cP" userLabel="Sub">
-                        <rect key="frame" x="0.0" y="101" width="135" height="14"/>
+                        <rect key="frame" x="0.0" y="108" width="135" height="14"/>
                         <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="11"/>
                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Ju-VS-eJA" userLabel="price">
-                        <rect key="frame" x="0.0" y="116" width="135" height="14"/>
+                        <rect key="frame" x="0.0" y="127" width="135" height="14"/>
                         <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="11"/>
                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
@@ -51,9 +51,9 @@
                 <constraint firstAttribute="trailing" secondItem="rLQ-HT-j7b" secondAttribute="trailing" id="Hgn-UU-iAe"/>
                 <constraint firstItem="1Ju-VS-eJA" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="JMx-tG-Y6Y"/>
                 <constraint firstItem="WZj-CU-aKd" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Q6n-yR-tTk"/>
-                <constraint firstItem="1Ju-VS-eJA" firstAttribute="top" secondItem="Bzc-wQ-7cP" secondAttribute="bottom" constant="1" id="Sx6-fv-ula"/>
-                <constraint firstItem="Bzc-wQ-7cP" firstAttribute="top" secondItem="rLQ-HT-j7b" secondAttribute="bottom" constant="1" id="U8R-Bz-Bda"/>
-                <constraint firstItem="rLQ-HT-j7b" firstAttribute="top" secondItem="WZj-CU-aKd" secondAttribute="bottom" constant="5" id="YmI-br-CAr"/>
+                <constraint firstItem="1Ju-VS-eJA" firstAttribute="top" secondItem="Bzc-wQ-7cP" secondAttribute="bottom" constant="5" id="Sx6-fv-ula"/>
+                <constraint firstItem="Bzc-wQ-7cP" firstAttribute="top" secondItem="rLQ-HT-j7b" secondAttribute="bottom" constant="5" id="U8R-Bz-Bda"/>
+                <constraint firstItem="rLQ-HT-j7b" firstAttribute="top" secondItem="WZj-CU-aKd" secondAttribute="bottom" constant="8" id="YmI-br-CAr"/>
                 <constraint firstAttribute="trailing" secondItem="Bzc-wQ-7cP" secondAttribute="trailing" id="o6M-3M-Xvy"/>
                 <constraint firstItem="rLQ-HT-j7b" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="wsV-AF-hfo"/>
             </constraints>
