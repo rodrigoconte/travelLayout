@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA0005DF25B85E8C0096084C /* LibraryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0005DD25B85E8C0096084C /* LibraryCollectionViewCell.swift */; };
+		AA0005E025B85E8C0096084C /* LibraryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA0005DE25B85E8C0096084C /* LibraryCollectionViewCell.xib */; };
 		AAAEB5A125AF44EF00F6C20A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAEB5A025AF44EF00F6C20A /* AppDelegate.swift */; };
 		AAAEB5A325AF44EF00F6C20A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAEB5A225AF44EF00F6C20A /* SceneDelegate.swift */; };
 		AAAEB5A525AF44EF00F6C20A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAEB5A425AF44EF00F6C20A /* ViewController.swift */; };
@@ -19,9 +21,13 @@
 		AAAEB5C325AF563600F6C20A /* CustomHomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAAEB5C125AF563600F6C20A /* CustomHomeTableViewCell.xib */; };
 		AAAEB5CB25B072C000F6C20A /* Travel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAEB5CA25B072C000F6C20A /* Travel.swift */; };
 		AAAEB5CF25B0735D00F6C20A /* ViagemDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAEB5CE25B0735D00F6C20A /* ViagemDAO.swift */; };
+		AAF3704B25B70604000B67FB /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF3704925B70604000B67FB /* LibraryViewController.swift */; };
+		AAF3704C25B70604000B67FB /* LibraryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAF3704A25B70604000B67FB /* LibraryViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA0005DD25B85E8C0096084C /* LibraryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryCollectionViewCell.swift; sourceTree = "<group>"; };
+		AA0005DE25B85E8C0096084C /* LibraryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LibraryCollectionViewCell.xib; sourceTree = "<group>"; };
 		AAAEB59D25AF44EF00F6C20A /* autoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = autoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAAEB5A025AF44EF00F6C20A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAAEB5A225AF44EF00F6C20A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +42,8 @@
 		AAAEB5C125AF563600F6C20A /* CustomHomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomHomeTableViewCell.xib; sourceTree = "<group>"; };
 		AAAEB5CA25B072C000F6C20A /* Travel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Travel.swift; sourceTree = "<group>"; };
 		AAAEB5CE25B0735D00F6C20A /* ViagemDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViagemDAO.swift; sourceTree = "<group>"; };
+		AAF3704925B70604000B67FB /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		AAF3704A25B70604000B67FB /* LibraryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LibraryViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +57,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA0005DC25B85E640096084C /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				AA0005DD25B85E8C0096084C /* LibraryCollectionViewCell.swift */,
+				AA0005DE25B85E8C0096084C /* LibraryCollectionViewCell.xib */,
+			);
+			path = Extras;
+			sourceTree = "<group>";
+		};
 		AAAEB59425AF44EF00F6C20A = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +129,7 @@
 		AAAEB5C725B0728F00F6C20A /* Scene */ = {
 			isa = PBXGroup;
 			children = (
+				AAF3704825B705CB000B67FB /* Library */,
 				AAAEB5B525AF44F900F6C20A /* Home */,
 			);
 			path = Scene;
@@ -123,6 +141,16 @@
 				AAAEB5CE25B0735D00F6C20A /* ViagemDAO.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		AAF3704825B705CB000B67FB /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				AA0005DC25B85E640096084C /* Extras */,
+				AAF3704925B70604000B67FB /* LibraryViewController.swift */,
+				AAF3704A25B70604000B67FB /* LibraryViewController.xib */,
+			);
+			path = Library;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,8 +212,10 @@
 			files = (
 				AAAEB5AD25AF44F000F6C20A /* LaunchScreen.storyboard in Resources */,
 				AAAEB5AA25AF44F000F6C20A /* Assets.xcassets in Resources */,
+				AAF3704C25B70604000B67FB /* LibraryViewController.xib in Resources */,
 				AAAEB5C325AF563600F6C20A /* CustomHomeTableViewCell.xib in Resources */,
 				AAAEB5A825AF44EF00F6C20A /* Main.storyboard in Resources */,
+				AA0005E025B85E8C0096084C /* LibraryCollectionViewCell.xib in Resources */,
 				AAAEB5BA25AF451F00F6C20A /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -198,7 +228,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAAEB5A525AF44EF00F6C20A /* ViewController.swift in Sources */,
+				AA0005DF25B85E8C0096084C /* LibraryCollectionViewCell.swift in Sources */,
 				AAAEB5A125AF44EF00F6C20A /* AppDelegate.swift in Sources */,
+				AAF3704B25B70604000B67FB /* LibraryViewController.swift in Sources */,
 				AAAEB5A325AF44EF00F6C20A /* SceneDelegate.swift in Sources */,
 				AAAEB5CB25B072C000F6C20A /* Travel.swift in Sources */,
 				AAAEB5CF25B0735D00F6C20A /* ViagemDAO.swift in Sources */,
