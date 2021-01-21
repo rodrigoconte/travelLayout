@@ -12,7 +12,7 @@
                 <outlet property="collectionView" destination="Qvz-aG-v39" id="CwH-uE-4Gr"/>
                 <outlet property="packageLabel" destination="R90-1Z-gcf" id="4fI-P7-gBk"/>
                 <outlet property="resultsLabel" destination="5pB-5i-NP3" id="rHF-XP-Kmk"/>
-                <outlet property="searchTextField" destination="P3T-d8-VAf" id="Hie-hR-CPB"/>
+                <outlet property="searchBar" destination="zuM-XE-0wy" id="Qfc-ls-0Ax"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -33,16 +33,15 @@
                             <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="P3T-d8-VAf">
-                            <rect key="frame" x="0.0" y="35" width="384" height="30"/>
+                        <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="zuM-XE-0wy">
+                            <rect key="frame" x="0.0" y="35" width="384" height="56"/>
                             <constraints>
-                                <constraint firstAttribute="height" constant="30" id="zCW-7b-dY1"/>
+                                <constraint firstAttribute="height" constant="56" id="RNc-D5-xzH"/>
                             </constraints>
-                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <textInputTraits key="textInputTraits"/>
-                        </textField>
+                        </searchBar>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6 resultados" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5pB-5i-NP3">
-                            <rect key="frame" x="0.0" y="70" width="384" height="30"/>
+                            <rect key="frame" x="0.0" y="96" width="384" height="30"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="30" id="Asr-dk-aa9"/>
                             </constraints>
@@ -51,7 +50,7 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Qvz-aG-v39">
-                            <rect key="frame" x="0.0" y="105" width="384" height="703"/>
+                            <rect key="frame" x="0.0" y="131" width="384" height="677"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="KHc-eG-dLU">
                                 <size key="itemSize" width="128" height="128"/>
@@ -61,6 +60,10 @@
                             </collectionViewFlowLayout>
                         </collectionView>
                     </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="zuM-XE-0wy" secondAttribute="trailing" id="flX-e5-vOX"/>
+                        <constraint firstItem="zuM-XE-0wy" firstAttribute="leading" secondItem="L0Z-YX-e2u" secondAttribute="leading" id="oAv-bU-QKc"/>
+                    </constraints>
                 </stackView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
